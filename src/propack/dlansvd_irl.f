@@ -301,8 +301,9 @@ c     | Test if an invariant subspace have been found |
 c     %-----------------------------------------------%
          if (ierr.lt.0) then
             if (dim.lt.k) then
-               write(*,*) 'WARNING: Invariant subspace found.',
-     c              ' Dimension = ',dim
+               call intpr
+     $              ("WARNING: Invariant subspace found. Dimension = ",
+     $              -1, dim, 1)
                info = dim
             endif
             goto 50
@@ -1043,7 +1044,7 @@ c     %-----------------%
 
       call second(t1)
       if (delta.lt.eta) then
-         write (*,*) 'Warning delta<eta in dcompute_int'
+c         write (*,*) 'Warning delta<eta in dcompute_int'
          return
       endif
 
@@ -1574,8 +1575,8 @@ c
       integer i,j,l,blocksize
 
       if((m.le.0).or.(n.le.0).or.(k.le.0)) return
-      if (ldwork.lt.m) stop 'Too little workspace in DGEMM_OVWR'
-      if (m.gt.ldb) stop 'm>ldb in DGEMM_OVWR'
+      if (ldwork.lt.m) call rexit('Too little workspace in DGEMM_OVWR')
+      if (m.gt.ldb) call rexit('m>ldb in DGEMM_OVWR')
       blocksize = int(ldwork/m)
       do i=1,n-blocksize+1,blocksize
          call dgemm(transa,'N',m,blocksize,k,alpha,A,lda,
@@ -1625,7 +1626,9 @@ c
       integer i,j,l,blocksize
 
       if((m.le.0).or.(n.le.0).or.(k.le.0)) return
-      if (ldwork.lt.n) stop 'Too little workspace in DGEMM_OVWR_LEFT'
+      if (ldwork.lt.n) then
+         call rexit('Too little workspace in DGEMM_OVWR_LEFT')
+      endif
       blocksize = int(ldwork/n)
       do i=1,m-blocksize+1,blocksize
          call dgemm('n',transb,blocksize,n,k,alpha,A(i,1),lda,

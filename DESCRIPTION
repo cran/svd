@@ -1,16 +1,15 @@
 Package: svd
 Type: Package
 Title: Interfaces to various state-of-art SVD and eigensolvers
-Version: 0.2
-Date: 2011-05-26
+Version: 0.3.1
+Date: 2013-03-08
 Author: Anton Korobeynikov
-Maintainer: Anton Korobeynikov <asl@math.spbu.ru>
+Maintainer: Anton Korobeynikov <anton@korobeynikov.info>
 Description: This package provides various R bindings to various SVD
         and eigensolvers (PROPACK, nuTRLan)
-License: file LICENSE
+License: BSD
 URL: http://github.com/asl/svd
-Packaged: 2011-05-25 21:16:03 UTC; asl
-Repository: CRAN
-Date/Publication: 2011-05-26 07:32:47
+Packaged: 2013-03-07 21:37:09 UTC; asl
 NeedsCompilation: yes
-License_restricts_use: yes
+Repository: CRAN
+Date/Publication: 2013-03-08 07:32:36
