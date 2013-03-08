@@ -5,6 +5,7 @@ export(
        is.extmat,
        extmat.ncol,
        extmat.nrow,
+       extmat,
        # Propack SVD
        propack.svd,
        # nuTRLan SVD and eigensolver
