@@ -1,4 +1,4 @@
-91c8331577533cb3e4b001fde19503db *DESCRIPTION
+82b51ad1a258bba7e913dd36e80d13ab *DESCRIPTION
 ad7b94ba4942c007c8eb45ffe9b20348 *NAMESPACE
 ac5cd842cffe6731a3136b462639402e *R/extmat.R
 a6373f191bfcf7df8c625a8638d87257 *R/propack_svd.R
@@ -28,6 +28,6 @@ f8aabca8e3489c0e49205cb30e450968 *src/trlan/trlan.c
 a939b22e1f399bf0cc569b298e3aa7fa *src/trlan/trlan_i.h
 316b070c2b43360fb70b25fe5853d144 *src/trlan/trlaux.c
 5e8eae6d298c6386d3502061ccc0deba *src/trlan/trlaux_i.h
-e801a9620c0fd6319e75f4c490f2f305 *src/trlan/trlcore.c
+069529f48aac9d3b58e55982d9a98e65 *src/trlan/trlcore.c
 d5e7f77f240b33f5a43374c8d6877a2d *src/trlan/trlcore_i.h
 0e0fcd94a4e338d163a09c79011274dc *src/trlan/trlmap.c
