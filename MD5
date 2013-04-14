@@ -1,4 +1,4 @@
-ff2601fb1bda222a71c9d8cf1eba7f85 *DESCRIPTION
+cc7f6fbaff522cc153a9916930518ddc *DESCRIPTION
 caafccab8f8b730e4ed1ce1b8a1f71ed *NAMESPACE
 f6527b2055e2b00fdc58324e0de862b2 *R/extmat.R
 a6373f191bfcf7df8c625a8638d87257 *R/propack_svd.R
@@ -8,10 +8,10 @@ eb465ad1a06771c88cddc8f925b99840 *R/trlan.R
 473f96b8748a81838805aa2b271eacae *man/svd.Rd
 79a63d7bc0126b9969627cd87a41cdb3 *src/Makevars
 9cff73914f84115eaee0ed4edd82a43c *src/extmat.c
-c2a0347427b60b66cc4c6c8434141e43 *src/propack/dlansvd_irl.f
+14fd695233238726284b01770fabc800 *src/propack/dlansvd_irl.f
 77f972bd1f992a4205c7196db7364135 *src/propack/license.txt
 93b8c561ea9887389564d46cb577c71d *src/propack/printstat.f
-70401c7789a09376a51ba8e38cb01e1b *src/propack/propack_svd.c
+58688093e412a94eabc8e4c6a84e889b *src/propack/propack_svd.c
 bcf0adb0bd66f645dbbf399448a1cbf9 *src/propack/second.f
 556d87ef6b078f73f76e4ee6b34d9ed4 *src/propack/stat.h
 2b88e24df0fe91cf0ed0a8cecf818d34 *src/trlan/dsort2.c
