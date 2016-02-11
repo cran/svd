@@ -24,8 +24,11 @@ trlan.svd <- function(X, neig = min(m, n),
   if (is.matrix(X)) {
     m <- dim(X)[1]; n <- dim(X)[2];
     storage.mode(X) <- "double";
-  } else if (is.extmat(X)) {
-    m <- extmat.nrow(X); n <- extmat.ncol(X);
+  } else if (.is.extmat(X)) {
+    m <- .extmat.nrow(X); n <- .extmat.ncol(X);
+  } else if (is(X, "extmat")) {
+    m <- dim(X)[1]; n <- dim(X)[2];
+    X <- X@.xData
   } else {
     stop('unsupported matrix type for SVD')
   }
@@ -36,13 +39,31 @@ trlan.svd <- function(X, neig = min(m, n),
   .Call("trlan_svd", X, neig, opts, lambda, U);
 }
 
+ztrlan.svd <- function(X, neig = min(m, n),
+                       opts = list(), lambda = NULL, U = NULL) {
+  if (is.matrix(X)) {
+    m <- dim(X)[1]; n <- dim(X)[2];
+    storage.mode(X) <- "complex";
+  } else {
+    stop('unsupported matrix type for SVD')
+  }
+
+  storage.mode(neig) <- "integer"
+  storage.mode(opts) <- "list"
+  
+  .Call("ztrlan_svd", X, neig, opts, lambda, U);
+}
+
 trlan.eigen <- function(X, neig = min(m, n),
                         opts = list(), lambda = NULL, U = NULL) {
   if (is.matrix(X)) {
     m <- dim(X)[1]; n <- dim(X)[2];
     storage.mode(X) <- "double";
-  } else if (is.extmat(X)) {
-    m <- extmat.nrow(X); n <- extmat.ncol(X);
+  } else if (.is.extmat(X)) {
+    m <- .extmat.nrow(X); n <- .extmat.ncol(X);
+  } else if (is(X, "extmat")) {
+    m <- dim(X)[1]; n <- dim(X)[2];
+    X <- X@.xData
   } else {
     stop('unsupported matrix type for SVD')
   }
@@ -51,4 +72,19 @@ trlan.eigen <- function(X, neig = min(m, n),
   storage.mode(opts) <- "list"
   
   .Call("trlan_eigen", X, neig, opts, lambda, U);
+}
+
+ztrlan.eigen <- function(X, neig = min(m, n),
+                         opts = list(), lambda = NULL, U = NULL) {
+  if (is.matrix(X)) {
+    m <- dim(X)[1]; n <- dim(X)[2];
+    storage.mode(X) <- "complex";
+  } else {
+    stop('unsupported matrix type for SVD')
+  }
+
+  storage.mode(neig) <- "integer"
+  storage.mode(opts) <- "list"
+  
+  .Call("ztrlan_eigen", X, neig, opts, lambda, U);
 }
