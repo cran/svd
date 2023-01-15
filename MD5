@@ -1,4 +1,4 @@
-a2e543689320a8a3bd5416fcae49c582 *DESCRIPTION
+858adb814dc1af4c2531e99dd2310910 *DESCRIPTION
 f55f8cd2bfabd0b8aa2e4c13f441241b *LICENSE
 8a51b1dafe0907efd00c8019ced834f9 *NAMESPACE
 25bb7e0a52848661b1330d421f744214 *R/extmat.R
@@ -31,9 +31,9 @@ cd5b5af57d140656823e247ede853402 *src/trlan/trlan.c
 b393e8c9ef448e94933fe97343d0ef41 *src/trlan/trlan.h
 27e1bbd365026b7dc5239d368cb97c80 *src/trlan/trlan_R.c
 a939b22e1f399bf0cc569b298e3aa7fa *src/trlan/trlan_i.h
-2ea7687ccabd4998f18dd4d8713b83a0 *src/trlan/trlaux.c
+53eac4ae82f0df2ff567d86f964bcc28 *src/trlan/trlaux.c
 5e8eae6d298c6386d3502061ccc0deba *src/trlan/trlaux_i.h
-c23934a52a3849982a115b1e65bf3343 *src/trlan/trlcore.c
+94c0d716028df4a5d0994f96abf4fb60 *src/trlan/trlcore.c
 d5e7f77f240b33f5a43374c8d6877a2d *src/trlan/trlcore_i.h
 77656e54bb23d1d406108af5a0125c22 *src/trlan/trlmap.c
 0cb62aabce13ea43a713260bc9c3db49 *src/trlan/zdaxpy.c
@@ -47,5 +47,5 @@ dc1f3a0951c3f06d3d76d112d4f4a97d *src/trlan/ztrlan_R.c
 30a440ba4c303dfc3e48dac6857a8724 *src/trlan/ztrlan_i.h
 8105cee373d18622b755336a8e8ce608 *src/trlan/ztrlaux.c
 8b12e58dab94ab5d072662fd21439aad *src/trlan/ztrlaux_i.h
-f770f233791d31da5fa078aef3cc0e8a *src/trlan/ztrlcore.c
+d01e12c95986dd8b2601ea0ea2dceb67 *src/trlan/ztrlcore.c
 a2d24d6e43c277b5a75f21268026a04a *src/trlan/ztrlcore_i.h

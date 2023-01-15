@@ -637,7 +637,7 @@ static ptrdiff_t indchar(char *a, char b) {
 
 void trl_pe_filename(size_t nlen, char *filename, char *base, int my_rank,
                      int npe) {
-  int lead, ndig, off;
+  unsigned lead, ndig, off;
   size_t len;
   char *format, *tfilename;
 
@@ -656,10 +656,10 @@ void trl_pe_filename(size_t nlen, char *filename, char *base, int my_rank,
   tfilename = Calloc(nlen, char);
   strncpy(tfilename, base, len);
   off = 1 + ndig % 10;
-  off = 5 + 2 * off;
+  off = 15 + 2 * off;
   format = Calloc(off, char);
-  sprintf(format, "%%s%%0%d.%dd", ndig, ndig);
-  sprintf(filename, format, tfilename, my_rank);
+  snprintf(format, off, "%%s%%0%d.%dd", ndig, ndig);
+  snprintf(filename, nlen, format, tfilename, my_rank);
   Free(format);
   Free(tfilename);
   return;
