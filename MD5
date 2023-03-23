@@ -1,4 +1,4 @@
-858adb814dc1af4c2531e99dd2310910 *DESCRIPTION
+34a97899981ff3d7a2e28c115d26e6e2 *DESCRIPTION
 f55f8cd2bfabd0b8aa2e4c13f441241b *LICENSE
 8a51b1dafe0907efd00c8019ced834f9 *NAMESPACE
 25bb7e0a52848661b1330d421f744214 *R/extmat.R
@@ -41,7 +41,7 @@ b431c78b752ab170c87227047212efa9 *src/trlan/zdgemm.c
 23e7427c0267bea2175eec9226701822 *src/trlan/zdgemv.c
 004b3c363d56a8b21dc29129b53d8501 *src/trlan/ztrl_comm_i.h
 24280c4c69901c19a9510b386bd2f9c0 *src/trlan/ztrl_comm_none.c
-a414174f1221ce6070769ded1bde3e91 *src/trlan/ztrlan.c
+d4a88eebb465adcca92108f9aa0e4795 *src/trlan/ztrlan.c
 d96e97e83cd8fb0ad787ce956befc948 *src/trlan/ztrlan.h
 dc1f3a0951c3f06d3d76d112d4f4a97d *src/trlan/ztrlan_R.c
 30a440ba4c303dfc3e48dac6857a8724 *src/trlan/ztrlan_i.h
