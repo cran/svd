@@ -1,4 +1,4 @@
-34a97899981ff3d7a2e28c115d26e6e2 *DESCRIPTION
+5a1ed76bc4aa8f23bd4140ffa6b1b302 *DESCRIPTION
 f55f8cd2bfabd0b8aa2e4c13f441241b *LICENSE
 8a51b1dafe0907efd00c8019ced834f9 *NAMESPACE
 25bb7e0a52848661b1330d421f744214 *R/extmat.R
@@ -16,7 +16,7 @@ b7e276d860655635b23b47497974add6 *src/propack/dlansvd_irl.f
 77f972bd1f992a4205c7196db7364135 *src/propack/license.txt
 42aabcfd56d510786ef3ec7a739760ff *src/propack/printstat.f90
 7e12b5893054bd4a55699515dcbac07c *src/propack/propack_svd.c
-05dde8462fee4d7e0b2c7358b36f9f89 *src/propack/second.f
+b96627a26a5b6918ef70ff78f0af1db1 *src/propack/second.f
 54a47aca119a4b06916dff256aac1c48 *src/propack/stat.h
 6d7e79d173153e5db6104e8dfb099455 *src/svd_init.c
 2b88e24df0fe91cf0ed0a8cecf818d34 *src/trlan/dsort2.c

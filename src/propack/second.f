@@ -27,9 +27,7 @@
 *     .. Executable Statements ..
 *
 
-      TARRAY = 0.0d0
-      T1 = ETIME( TARRAY )
-      T  = TARRAY( 1 )
+      T = 0.0d0
 
       RETURN
 *
