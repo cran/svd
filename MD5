@@ -1,4 +1,4 @@
-5a1ed76bc4aa8f23bd4140ffa6b1b302 *DESCRIPTION
+1beccb9fe080f1bf3c9e341ea9db3cb6 *DESCRIPTION
 f55f8cd2bfabd0b8aa2e4c13f441241b *LICENSE
 8a51b1dafe0907efd00c8019ced834f9 *NAMESPACE
 25bb7e0a52848661b1330d421f744214 *R/extmat.R
@@ -10,13 +10,12 @@ bbf000dde3f9f6f53656a54649430a4a *R/trlan.R
 b41e7eaafb6e7bf1795682d35bfc75ee *man/extmat-class.Rd
 07cbd7c931e6b107c6d5c97ba60fc181 *man/extmat.Rd
 ed10c9050460f4509c8d5e5241659aef *man/svd.Rd
-a0ccc432c93fc5ec777c3d0f74463399 *src/Makevars
+960722804ab4d57ecd1c775358ae75ae *src/Makevars
 88e6c729a771d4d777f9286eff5d80e1 *src/extmat.c
-b7e276d860655635b23b47497974add6 *src/propack/dlansvd_irl.f
+961699dc899e0a962b518c0125d58fa0 *src/propack/dlansvd_irl.f
 77f972bd1f992a4205c7196db7364135 *src/propack/license.txt
 42aabcfd56d510786ef3ec7a739760ff *src/propack/printstat.f90
-7e12b5893054bd4a55699515dcbac07c *src/propack/propack_svd.c
-b96627a26a5b6918ef70ff78f0af1db1 *src/propack/second.f
+cb227cfcab3e6a411c3f5488bc578024 *src/propack/propack_svd.c
 54a47aca119a4b06916dff256aac1c48 *src/propack/stat.h
 6d7e79d173153e5db6104e8dfb099455 *src/svd_init.c
 2b88e24df0fe91cf0ed0a8cecf818d34 *src/trlan/dsort2.c
@@ -31,7 +30,7 @@ cd5b5af57d140656823e247ede853402 *src/trlan/trlan.c
 b393e8c9ef448e94933fe97343d0ef41 *src/trlan/trlan.h
 27e1bbd365026b7dc5239d368cb97c80 *src/trlan/trlan_R.c
 a939b22e1f399bf0cc569b298e3aa7fa *src/trlan/trlan_i.h
-53eac4ae82f0df2ff567d86f964bcc28 *src/trlan/trlaux.c
+8788eb275e8a72ac72cc212f842d7892 *src/trlan/trlaux.c
 5e8eae6d298c6386d3502061ccc0deba *src/trlan/trlaux_i.h
 94c0d716028df4a5d0994f96abf4fb60 *src/trlan/trlcore.c
 d5e7f77f240b33f5a43374c8d6877a2d *src/trlan/trlcore_i.h
