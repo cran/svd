@@ -3,7 +3,7 @@ Type: Package
 Imports: methods
 Suggests: testthat (>= 0.7)
 Title: Interfaces to Various State-of-Art SVD and Eigensolvers
-Version: 0.5.6
+Version: 0.5.7
 Author: Anton Korobeynikov [aut, cre],
   Rasmus Munk Larsen [ctb, cph],
   Lawrence Berkeley National Laboratory [ctb, cph]
@@ -23,6 +23,6 @@ Authors@R: c(person(given = "Anton",
                     family = "Laboratory",
                     role = c("ctb", "cph")))
 NeedsCompilation: yes
-Packaged: 2024-09-03 22:02:57 UTC; asl
+Packaged: 2024-09-28 04:48:56 UTC; asl
 Repository: CRAN
-Date/Publication: 2024-09-03 22:50:02 UTC
+Date/Publication: 2024-09-28 23:30:02 UTC

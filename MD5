@@ -1,4 +1,4 @@
-0862863cbb5b826a24cc541981f86efb *DESCRIPTION
+15e1892fb403d245928c3c79bdf46ad0 *DESCRIPTION
 f55f8cd2bfabd0b8aa2e4c13f441241b *LICENSE
 8a51b1dafe0907efd00c8019ced834f9 *NAMESPACE
 25bb7e0a52848661b1330d421f744214 *R/extmat.R
@@ -12,7 +12,7 @@ b41e7eaafb6e7bf1795682d35bfc75ee *man/extmat-class.Rd
 ed10c9050460f4509c8d5e5241659aef *man/svd.Rd
 960722804ab4d57ecd1c775358ae75ae *src/Makevars
 e2a30827e9bb3c8c295345446c8a4236 *src/extmat.c
-961699dc899e0a962b518c0125d58fa0 *src/propack/dlansvd_irl.f
+9cc185a36fbd13d3bd1093b072b5b870 *src/propack/dlansvd_irl.f
 77f972bd1f992a4205c7196db7364135 *src/propack/license.txt
 42aabcfd56d510786ef3ec7a739760ff *src/propack/printstat.f90
 fb9e17987b3512cf59ce8f452321f839 *src/propack/propack_svd.c
